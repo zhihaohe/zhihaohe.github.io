@@ -298,6 +298,149 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/09/25/数据结构/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="石志浩的博客">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/09/25/数据结构/" itemprop="url">数据结构</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-25T20:15:08+08:00">
+                2017-09-25
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/学习/" itemprop="url" rel="index">
+                    <span itemprop="name">学习</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>现在学的《数据结构》是我在大学期间所学的最难的课程，暂时没有之一。<br>现把前两章所学基础的知识做一下总结：<br>第一章<br>  1.1数据结构：是研究非数值计算的程序设计中计算机操作的对象以及它们之间的关系和运算的一门学科。<br>  1.2数据(Data)：是对客观事物的符号表示(信息的描述)，一切能够由计算机接受和处理的对象。<br>     数据元素(Data element)：是数据的基本单位，在程序中作为一个整体加以考虑和处理。<br>     数据项(Data item)：是数据的不可分割的最小单位，在有些场合下，数据项又称为字段或域。<br>     根据数据之前的不同关系可以分为：集合、线性结构、树形结构、网状结构或者分为线性结构和非线性结构。<br>     Data_Structure=(D，S)<br>        D：数据元素的有限集<br>        S：D上关系的有限集<br>  1.3数据元素之间的逻辑结构分为：一对一、一对多、多对多三种。<br>     物理结构：描述数据元素在计算机存储器中的存储方式。<br>        顺序：逻辑相邻的元素物理存储上相邻；<br>        链式：逻辑相邻的元素物理存储无关。<br>        抽象数据类型的定义与表示：<br>       （D，S，P）<br>        D是数据对象，S是D上的关系集，P是对D的基本操作集。<br>     ADT 抽象数据类型名 {<br>        数据对象：D=〈数据对象的定义〉<br>        数据关系：R=〈数据关系的定义〉<br>        基本操作：〈基本操作的定义〉<br>        } ADT 抽象数据类型名<br>  1.4算法效率的度量<br>     性能指标：时间复杂度、空间复杂度、其他（正确性、可读性、易调性、健壮性）<br>     度量方法：事后统计法、事前估算法<br>     时间复杂度：与问题的规模有关<br>        T(n)=O(f(n))<br>     例题1<br>        for (i=0; i<n; i++)="" {++x;s+="x;}" f(n)="n，时间复杂度为O(n)" 例题2="" for="" (i="0;" i<n;="" (j="0;" j<n;="" j++)="" 例题3="" j<="i;" 例题4="" for(i="1;" {y++;="" ="" 语句的频度是n-1="" for(j="0;j<=(2*n);j++)" 语句的频度是(n-1)(2n+1)="" x++;="" ="" }="" 时间复杂度为t(n)="O(n2)" 例题5="" i="1;" 语句的频度是1="" while(i<="n)" 语句的频度是log2n="" 例题6="" a="0;b=1;" {s="a+b;" b="a;" ="" ="" 例题总结：对于for语句，有多少个嵌套可以认为其时间复杂度是n的多少次方。="" 对于while语句，第一句（表示赋值的情况下）一般执行一次。循环体i="i*x，时间复杂度为T(n)=O(logxn)" 第二章="" 2.1="" 线性表的定义和特点="" 定义：="" n个数据元素的有限序列。="" l="（a1,...," ai-1,="" ai,="" ai+1,="" ...,="" an）="" 特点：="" “一头一尾、一前一后”。="" 头元素没有前驱元素；="" 表尾元素没有后继元素；除表头外，每个元素有唯一的前驱；="" 除表尾外，每个元素有唯一的后继；="" 表长n="0的线性表称为空表。" 例题="" 假设利用两个线性表="" la="" 和="" lb="" 分别表示两个集合a和b,现求一个新的集合a="A∪B" 思路:="" s1:读取lb中的元素bi;="" s2:在la中查找是否有相同的元素;="" s3:如果存在，i++,返回s1;="" 如果不存在，将bi插入到la的表尾，="" i++,返回s1="" 。="" 程序如下：="" void="" union(list="" &la,list="" lb)="" {="" la_len="ListLength(La);" lb_len="ListLength(Lb);" getelem(lb,i,e);="" p="LocateElem(La,e,equal);" if(!p)="" listinsert(la,++la_len,e);="" ="" union="" 已知线性表la和lb中的数据元素按值非递减有序排列,现要求将la和lb归并为一个新的线性表lc,且lc中的数据元素仍按值非递减有序排列.="" 例如,设la="(3,5,8,11)" 则lc="(2,3,5,6，8,8,9,11,11,15,20)" 算法：="" s1:比较la、lb相对应位置的元素，将小的插入到lc中，并读取该表的下一个元素；="" s2:重复上面的操作，直到某表读取结束；="" s3:将剩下表中的元素插入lc的表尾。="" 2.2="" 线性表的顺序表示和实现="" 顺序表的结构描述="" typedef="" struct{="" elemtype="" *elem;="" 存储空间基址="" int="" length;="" 顺序表当前长度="" listsize;="" 单前分配存储容量="" }sqlist;="" 顺序表的操作实现="" 构建一个空的顺序表l：给顺序表的三个成员赋值.="" status="" initlist_sq(sqlist="" &l)="" 构造一个空的线性表l="" l.elem="(ElemType*)malloc(LIST_" init_sizesizeof="" (elemtype));="" 定义其长度="" if(l.elem="=NULL)" exit(overflow);="" 如果函数为空，输出overflow="" l.length="0;" 空表长度为0="" l.listsize="LIST_" init_size;="" 初始存储容量="" return="" ok;="" initlist_sq="" 读取顺序表中的某个元素="" getelem_sq(sqlist="" l,int="" i,="" &e)="" if(i<1||i="">L.length)<br>                      return ERROR;<br>              else    e=L.elem[i-1];<br>              return OK;<br>          }//GetElem_Sq<br>        插入(前插法):<br>          (1).前提；表不满<br>          (2).插入范围：1~L.length+1<br>                  注；位序i在C/C++中对应于下标i-1<br>          (3).步骤：第i至最后所有元素后移一个元素<br>                    在第i个位置插入元素X<br>                    表长增加1<br>          (4).算法：<br>            Status ListInsert_L(LinkList &amp;L, int i, ElemType e)<br>             {  LinkList p,s;<br>                p=L;<br>                int j=0;<br>                while(p&amp;&amp;j<i-1) {="" p="p-">next; ++j;<br>                }<br>                if(!p||j&gt;i-1) return ERROR;<br>                s=(LinkList)malloc(sizeof(Lnode));<br>                s-&gt;data=e;s-&gt;next=p-&gt;next;<br>                p-&gt;next=s;<br>                return OK;<br>                }<br>            Status  ListInsert_Sq(SqList  &amp;L,int i, ElemType  e)<br>            {   //（1）合法性判断<br>                //（2）n-i+1个元素的后移<br>                //（3）插入元素e<br>                //（4）表长加1<br>                return OK;<br>            }<br>        删除<br>          (1).前提：表非空<br>          (2).合理的删除范围：1~L.length+1<br>          (3).步骤：<br>                   取出第i个元素<br>                   第i个元素之后的元素向前移动一个位置<br>                   表长减1<br>          (4).算法<br>            Status ListDelete_L(LinkList L, int i, ElemType &amp;e)<br>            {   LinkList p,q;<br>                p=L;<br>                int j=0;<br>                while(p-&gt;next&amp;&amp;j<i-1) {="" p="p-">next;++j;<br>                }<br>                if(!(p-&gt;next)||j&gt;i-1) return ERROR;<br>                q=p-&gt;next;p-&gt;next=q-&gt;next;<br>                e=q-&gt;data;free(q);<br>                eturn OK;<br>                }<br>            Status  ListDelete_Sq(SqList  &amp;L,int i, ElemType  &amp;e)<br>            {   //（1）合法性判断<br>                //（2）n-i个元素的前移<br>                //（3）表长减1<br>                return OK;<br>            }<br>   2.3  线性表的链式表示和实现<br>              date|next<br>            数据域：存储数据元素信息的域。<br>            指针域：存储直接后继存储位置的域。<br>            指针(链)：指针域中存储的地址。<br>            链表：n个结点链结成一个链表，即为线性表的链式存储结构。<br>            线性链表(单链表)：链表的每个结点中只包含一个指针域。<br>        结点和单链表的结构描述<br>            typedef struct LNode{<br>            ElemType  data;<br>            struct  LNode  <em>next;<br>            }LNode,  </em>LinkList;<br>        单链表的操作与实现<br>          初始化单链表//建立带附加头结点的空表<br>            Status   InitList_L(LinkList  &amp;L)<br>            {   L=(LNode<em>)malloc(sizeof(LNode));<br>                if(!L)   //L==NULL<br>                exit(OVERFLOW);<br>                L-&gt;next=NULL;<br>                return OK;<br>            } //InitList_L<br>        单链表的操作与实现<br>          获取单链表的长度//针对带附加头结点的链表<br>            int   ListLength_L(LinkList  L)<br>            {   p=L-&gt;next;<br>               num=0;<br>               while(p!=NULL)<br>            {   num++;  p=p-&gt;next;  }<br>                return  num;<br>            } //ListLength_L<br>        单链表的操作与实现<br>          获取单链表中的第i个元素<br>            Status   GetElem_L(LinkList  L,int i, ElemType &amp;e)<br>            {   //i在1到ListLength(L)之间<br>                p=L-&gt;next;  j=1;  //p指向第一个元素，j是计数器<br>                while(p&amp;&amp;j<i) {="" p="p-">next;  j++;    }<br>                if(!p||j&gt;i) return ERROR;<br>                e=p-&gt;data;<br>                return  OK;<br>            } //GetElem_L<br>        插入时的操作代码：<br>                        q-&gt;next = p-&gt;next;<br>                        p-&gt;next = q;<br>        单链表的操作与实现   插入<br>            Status   ListInsert_L(LinkList  &amp;L,int i, ElemType e)<br>            {   p=L;    j=0;<br>                //获得第i-1个元素的地址<br>                while(p&amp;&amp;j<i-1) {="" p="p-">next;  j++;    }<br>                if(!p||j&gt;i-1)   return ERROR;<br>                //在第i个元素前插入元素e<br>                s=(LNode</i-1)></i)></em>)malloc(sizeof(LNode));<br>                s-&gt;data=e;  s-&gt;next=p-&gt;next;<br>                p-&gt;next=s;<br>                return  OK;<br>            } //ListInsert_L<br>        删除时的操作代码：<br>                        p-&gt;next = p-&gt;next-&gt;next;<br>        单链表的操作与实现   删除<br>            Status   ListDelete_L(LinkList  &amp;L,int i, ElemType &amp;e)<br>            {   p=L;    j=0;<br>                //查找第i-1个元素<br>                while(p-&gt;next&amp;&amp;j<i-1) {="" p="p-">next;  j++;    }<br>                if(!(p-&gt;next)||j&gt;i-1)   return ERROR;<br>                //删除第i个元素<br>                q=p-&gt;next;<br>                p-&gt;next=q-&gt;next;         e=q-&gt;data;<br>                free(q);<br>                return  OK;<br>            } //ListDelete_L<br>        单链表的操作与实现<br>          清空单链表<br>            Status   ClearList_L(LinkList  &amp;L)<br>            {   //将单链表重新置为空表<br>                while (L-&gt;next)<br>                {<br>                p=L-&gt;next;    L-&gt;next=p-&gt;next;<br>                free(p);<br>                }<br>                return  OK;<br>            } //ClearList_L<br>        顺序存储与链式存储的比较<br>            void MergeList(List La, List Lb, List &amp;Lc)<br>            {   InitList(Lc);     i = j = 1;    k = 0;<br>                La_len = ListLength(La);  Lb_len = ListLength(Lb);<br>                while ((i &lt;= La_len) &amp;&amp; (j &lt;= Lb_len))<br>                {      GetElem(La, i, ai);  GetElem(Lb, j, bj);<br>                if (ai &lt;= bj) { ListInsert(Lc, ++k, ai);  ++i; }<br>                else { ListInsert(Lc, ++k, bj);  ++j; }<br>            }<br>             … …<br>            }<br>        循环链表<br>           表中最后一个结点的指针域指向头结点。<br>           循环链表为空的判定条件：L-&gt;next == L<br>        双向链表<br>           每个结点中包含指向直接前驱和直接后继的两个指针域。<br>           d-&gt;next-&gt;prev=d-&gt;prev-&gt;next=d<br>      例题：<br>        设已知结点指针p指向双向链表上的某结点，结点指针q指向一个待插入结点，设计操作，将q所指向的结点插入到p所指向的结点的后面。<br>            操作代码：<br>                    p-&gt;next-&gt;prev = q;<br>                    q-&gt;next = p-&gt;next;<br>                    p-&gt;next = q;<br>                    q-&gt;prev = p;<br>      例题：<br>        设已知结点指针p指向双向链表上的某结点，将p所指向的结点删除。<br>            操作代码：<br>                    p-&gt;prev-&gt;next = p-&gt;next;<br>                    p-&gt;next-&gt;prev = p-&gt;prev;<br>        顺序结构与链式结构选用对比：<br>          顺序结构实现的线性表的特点：<br>            空间结构简单，易于管理<br>            便于随机访问<br>            占用整块儿存储单元<br>            增删元素不方便<br>          链式结构实现的线性表的特点<br>            空间结构复杂，不易管理<br>            不能进行随机访问<br>            有效利用存储空间<br>            便于增删元素<br>      例题：<br>        1.在长度为n的顺序存储的线性表中,向第i个元素(1≤i ≤ n+1)位置插入一个新元素时，需要从后向前依次后移（ n-i+1 ）个元素<br>        2.在一个长度为n的 顺序存储的线性表中，删除第i个元素（1≤i ≤ n）时，需要从前向后依次移动（   n-i  ）个元素<br>        3.在一个单链表HL中，若要向表头插入一个由指针p指向的结点，则执行（    B    ）。<br>            A.HL=p；p-&gt;next=HL;     B.p-&gt;next=HL;HL=p;<br>            C.p-&gt;next=HL;p=HL;        D.p-&gt;next=HL-&gt;next; HL-&gt;=p;<br>        4.在一个单链表HL中，若要在指针q指向的结点后面插入一个由指针p所指向的结点，则执行(   D    )。<br>            A.q-&gt;next=p-&gt;next；p-&gt;next=q;<br>            B.p-&gt;next=q-&gt;next;   q=p;<br>            C.q-&gt;next=p-&gt;next;   p-&gt;next=q;<br>            D.p-&gt;next=q-&gt;next;   q-&gt;next=p;<br>        5.在一个单链表HL中，若要删除由指针q指向的结点的后继结点，则执行(   C  )。<br>            A.p=q-&gt;next；p-&gt;next=q-&gt;next;<br>            B.p=q-&gt;next;   q-&gt;next=p;<br>            C.p=q-&gt;next;   q-&gt;next=p-&gt;next;<br>            D.q-&gt;next=q-&gt;next-&gt;next;   q-&gt;next=q;<br>        6.在已HL为表头指针的带表头结点的单链表和循环链表中，链表为空的条件分别为(  HL-&gt;next=NULL  )和(  HL-&gt;next=HL  ) 。</i-1)></i-1)></i-1)></n;></p>
+<hr>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/09/04/2017年上半年时事政治/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1385,7 +1528,7 @@
             
               <a href="/archives/">
             
-                <span class="site-state-item-count">7</span>
+                <span class="site-state-item-count">8</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -1396,7 +1539,7 @@
             
             <div class="site-state-item site-state-categories">
               
-                <span class="site-state-item-count">4</span>
+                <span class="site-state-item-count">5</span>
                 <span class="site-state-item-name">分类</span>
               
             </div>
@@ -1407,7 +1550,7 @@
             
             <div class="site-state-item site-state-tags">
               <a href="/tags/index.html">
-                <span class="site-state-item-count">4</span>
+                <span class="site-state-item-count">5</span>
                 <span class="site-state-item-name">标签</span>
               </a>
             </div>
