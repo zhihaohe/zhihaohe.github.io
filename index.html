@@ -298,7 +298,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/11/01/11-1总结/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/11/13/11-11总结/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="John Doe">
@@ -317,7 +317,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2017/11/01/11-1总结/" itemprop="url">11.1总结</a></h1>
+                <a class="post-title-link" href="/2017/11/13/11-11总结/" itemprop="url">11.11总结</a></h1>
         
 
         <div class="post-meta">
@@ -329,8 +329,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-11-01T20:23:51+08:00">
-                2017-11-01
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-11-13T20:58:45+08:00">
+                2017-11-13
               </time>
             
 
@@ -369,8 +369,7 @@
       
         
           
-            <p>例题: 知度求叶节点<br>1.在一棵度为4的树T中,若有20个度为4的结点,10个度为3的结点,1个度为2的结点,10个度为1的结点,则树T的叶节点个数是(B)<br>A：41 B：82 C：113 D：122<br>设度为4的树中度为0,1,2,3,4结点个数分别为n0,n1,n2,n3,n4<br>根据树中结点度的关系可以推出：<br>n0 = 1 + n2 + 2 <em> n3 + 3 </em> n4 = 1 + 1 + 2 <em> 10 + 3 </em> 20 = 82<br>因此答案是B<br>2.一棵度为3的树有2个度为1的结点,3个度为2的结点,4个度为3的结点,则有多少个叶子结点?给出公式和计算方法,<br>三叉树结点的度数均不大于3,结点总数应等于i度结点数(记为ni)和：N=no+n1+n2+n3 (1)<br>二：i度结点有i个孩子,根结点不是任何结点的孩子,结点总数为：N=n1+2n2+3n3+1 (2)<br>1、2得到：no=n2+2n3+1=3+8+1=12<br>3.在一棵度为3的树中，若有2个度为3的结点，有1个度为2的结点，则有（）个度为0的结点。</p>
-<p>A．4<br>B．5<br>C．6<br>D．7<br>[解析] 在本题中要求的是叶子结点的个数。题目中没有告诉有多少个度为1的结点，事实上，这没有关系，因为任何度为1的结点最终都会连接到一个(且只一个)叶子结点。我们已经知道，有一个度为2的结点，不妨设该结点为根结点，且设该结点连接到2个度为3的结点，这2个度为3的结点共连接到6个子结点，这6个子结点的度数只可能为0或为1，如果为0则为叶子，如果为1，则根据上面的分析，其最终会连接到一个叶子结点。所以，该树共有6个度为0的结点。<br>4.在一颗度为 3 的树 T 中，若有 10 个度为 3 的结点，5 个度为 2 的结点，则树 T 的叶结点 有    个。<br> A) 15               B) 26                 C) 25                 D) 40<br>10<em>（3-1）+5</em>（2-1）+1=26</p>
+            <p>把Java的前两章的课本知识看了一遍。注意到了一些细节问题，switch和case表示选择时后面不加“；”，而是加“：”<br>注意到了printf与println的不同：Java中的println和printf的区别在于：println是用于输出参数内容，然后换行，其参数个数固定为一个。printf是用于输出带各种数据类型的占位符的参数，其参数个数是不定的。</p>
 <hr>
 
           
@@ -420,7 +419,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/10/31/10-31总结/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/11/13/11-10总结/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="John Doe">
@@ -439,7 +438,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2017/10/31/10-31总结/" itemprop="url">10.31总结</a></h1>
+                <a class="post-title-link" href="/2017/11/13/11-10总结/" itemprop="url">11.10总结</a></h1>
         
 
         <div class="post-meta">
@@ -451,8 +450,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-10-31T11:00:56+08:00">
-                2017-10-31
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-11-13T20:55:11+08:00">
+                2017-11-13
               </time>
             
 
@@ -491,17 +490,7 @@
       
         
           
-            <ol>
-<li>在作进栈运算时,应先判别栈是否满,在作退栈运算时应先判别栈是否空。当栈中元素为 n 个,作进栈运算时发生上溢,则说明该栈的大容量为n。 为了增加内存空间的利用率和减少溢出的可能性,由两个栈共享一片连续的内存空间时,应将两栈的深度分别设在这片内存空间的两端,这样,当 两个栈的栈顶在栈空间的某一位置相遇时，才产生上溢。</li>
-<li>若已知一个栈的入栈序列是 1,2,3,…,n，其输出序列为 p1,p2,p3，…，pN,若 pN是 n，则 pi是不确定的。</li>
-<li>若一个栈以向量 V[1..n]存储，初始栈顶指针 top 为 n+1，则下面 x 进栈的正确操作是 top:=top-1;  V [top]:=x 。</li>
-<li>若栈采用顺序存储方式存储，现两栈共享空间 V[1..m]，top[i]代表第 i 个栈( i =1,2)栈顶，栈 1 的 底在 v[1]，栈 2 的底在 V[m]，则栈满的条件是 top[1]+1=top[2] 。 </li>
-<li>栈在递归调用 子程序调用 表达式求值中应用。</li>
-<li>用链接方式存储的队列，在进行删除运算时头、尾指针可能都要修改。<br>注：本题主要考查队列的删除操作。在有头结点的链队列的出队操作中，一般只需修改队头指针，但当原队列中只有一个结点时，该结点既是队头也是队尾，故删去此结点时亦需修改队尾指针，使其指向头结点，且删去此结点后队列变空。</li>
-<li>递归过程或函数调用时，处理参数及返回地址，要用一种称为栈的数据结构。</li>
-<li>已知输入序列为 abcd 经过输出受限的双向队列后能得到的输出序列有（    ）。<br>A. dacb     B. cadb      C. dbca       D. bdac     E. 以上答案都不对<br> 注意是出队受限的队列（单方向出队），入队可以两端入队，并且只限制进队的顺序，不限制是否全部进入才出队，<br>  B:答案 cadb 过程： a进队列——b从入队口进队——c从出队口出队——a出队——d从出队口入队——d出队——b出队;<br>  D: 答案bdac 过程： a进队列——b从出队口进队——b出队——c从入队口入队——d从出队口入队——d出队——a出队——c出队;<br>  输出受限意为可以在两端输入只能在一端输出。假设右端为输出端：<br> Ａ　要满足输出ｄａ，则先输入ａｂｃ再从右端输入ｄ，排列为ｃｂａｄ，右端输出为ｄａｂｃ，所以Ａ错；<br> Ｂ　先输入ａｂｃ使之排列为ｂａｃ，再从右端输出ｃａ，从右端输入ｄ，再依次输出ｄ和ｂ，所以序列为ｃａｄｂ；<br>  后面类推。<br>9.栈和队列都是限制存取点的线性结构。</li>
-<li>设有一个 10 阶的对称矩阵 A，采用压缩存储方式，以行序为主存储，a11为第一元素，其存储地址为 1， 每个元素占一个地址空间，则 a85的地址为33.<br> 注：对称压缩存储中元素位置：i*(i-1)/2+j-1+初始位置。</li>
-</ol>
+            <p>数学知识仍然是求最简形式，把式子化成最简形式，求其的秩，根据判断秩是否相等来判断式子是否可以互相转化。</p>
 <hr>
 
           
@@ -551,7 +540,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/10/30/10-30总结/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/11/13/11-9总结/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="John Doe">
@@ -570,7 +559,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2017/10/30/10-30总结/" itemprop="url">10.30总结</a></h1>
+                <a class="post-title-link" href="/2017/11/13/11-9总结/" itemprop="url">11.9总结</a></h1>
         
 
         <div class="post-meta">
@@ -582,8 +571,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-10-30T20:25:10+08:00">
-                2017-10-30
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-11-13T20:49:55+08:00">
+                2017-11-13
               </time>
             
 
@@ -622,31 +611,7 @@
       
         
           
-            <ol>
-<li>与数据的存储结构无关的术语是栈。</li>
-<li>数据项是数据的最小单位。数据元素是数据的基本单位。</li>
-<li>数据的逻辑结构说明数据元素之间的顺序关系,它依赖于计算机的存储结构<br>答：错.<br>说明：逻辑结构可用不同的存储结构实现,“它依赖于计算机的存储结构”完全说不通.<br>4：算法的运行时间涉及到加,减,乘,除,转移,存取等基本运算.要想准确的计算总运行时间是不可行的.<br>答：对.<br>说明：软硬件环境都是千差万别的.也没必要去准确计算.算法分析只是为了比较不同算法的优劣.<br>5：在顺序存储结构中,有时也存储数据结构中元素之间的关系.（这个我觉得静态链表在存储结构上是顺序存储可是其中不也存储了节点之间的关系的么?）<br>答：错.<br>说明：“顺序存储结构”必须体现元素之间的关系,不是“有时”.“链式存储结构”并不是“顺序存储结构”,后者称“顺序表”或“邻接表”有些书用“链表是顺序存取”说法,但并不是指“链表是顺序存储结构”.<br>6.一个数据结构在计算机中映像称为存储结构。<br>7.若某线性表最常用的操作是存取任一指定序号的元素和在最后进行插入和删除运算，则利用顺序表存储方式最节省时间。<br>8.某线性表中最常用的操作是在最后一个元素之后插入一个元素和删除第一个元素，则采用仅有尾指针的单循环链表存储方式最节省运算时间。<br>9.线性表L=（a1,a2,…,an）用数组表示，假定删除表中任一元素的概率相同，则删除一个元素平均需要移动元素的个数是（n-1）/2。插入是n/2。<br>10.从一个具有n个节点的单链表中查找其值等于x结点时，在查找成功的情况下，需平均比较（N+1）/2个结点。<br>11.判定一个循环队列QU（最多元素为m0）为空的条件 QU.rear= =QU.front。<br>12.判定一个循环队列QU（最多元素为m0）为满的条件 QU.front= =(QU.rear+1)%m0。<br>13.一个循环队列QU（最多元素为m0）队列满时，队列中有m0-1个元素。<br>14.表达式3<em> 2^(4+2</em>2-6<em>3)-5求值过程中当扫描到6时，对象栈和算符栈为（3,2,8；(</em>^-），其中^为乘幂。 注：输出的是经过计算后的值，按运算符的高低运算顺序来计算。<br>15.若用一个大小为6的数组来实现循环队列，且当前rear和front的值分别为0和3，当从队列中删除一个元素，再加入两个元素后，rear和front的值分别为多少？     2和4  注：删除一个元素对头指针front加一，对尾指针rear不变；插入两个元素，对头指针front不变，对尾指针rear加二。<br>16.从一个带头结点的栈顶指针为HS的链式栈中插入一个S所指的结点时，执行 S-&gt;next=HS-&gt;next; HS-&gt;next=S。<br>17.从一个带头结点的栈顶指针为HS的链式栈中删除一个结点时，并用x保存被删除结点的值，则执行  x= HS-&gt;next-&gt;data;                      HS-&gt;next= HS-&gt;next-&gt;next。<br>18.数组A中，每个元素的长度是3个字节，行下标k的范围从1到8，列下标j的范围从1到10，从首地址SA开始连续存放在存储器中，该数组按行存放时，元素A[8][5]的起始地址为（7<em>10+4）</em>3=222<br>因为按照列逐个数到A[8][5]有7*10+4个元素,（且在第八行是从 A[8][8]到A[8][7],A[8][6],倒存放在存储器中）</li>
-<li>对称矩阵：<pre><code>矩阵元素的值与下标的关系： a(i,j) = a(j,i)
-我们只需为每一对称元素分配一个储存单元，这样可以将 n*n 个
-元素储存在一个 n(n+1)/2 的储存空间里。
-假设用以为数组储存上三角或下三角元素。则一维数组的下标 k
-与 n 阶对称阵的元素 a(i,j) 的下标对应关系为：
-    如果 i &gt;= j 时，以下三角储存， k = i*(i+1)/2 + j
-    如果 i &lt; j  时，以上三角储存， k = j*(j+1)/2 + i
-</code></pre>三角矩阵：<pre><code>分为上三角矩阵和下三角矩阵，其中在上三角矩阵中，下三角元素
-全部为一个常数c,下三角矩阵中，上三角元素全部为一个常数c。
-以上三角矩阵为例，上三角矩阵的压缩规则是只储存上三角元素，
-不储存下三角元素，或只用一个储存单元储存下三角非零元素
-用一维数组储存上三角矩阵，采取使用一个储存单元储存下三角元
-素的方法，一维数组的长度为 n*(n+1)/2 + 1 一维数组的下标 k与
- n 阶上三角矩阵的元素 a(i,j) 的下标对应关系为：
-    如果 i &lt;= j, k = i*(2n-i+1)/2 + j -i
-    如果 i &gt; j , k = n*(n+1)/2 
-下三角矩阵使用一维数组储存后相应的对应关系为：
-    如果 i &gt;= j, k = i*(i+1)/2 + j
-    如果 i &lt;  j, k = n*(n+1)/2 
-</code></pre>例题：有一个10阶对称矩阵A,采用压缩存储方式存储，（按行为主序，并且A[0][0]=1）,则A[8][5]的地址为42。</li>
-</ol>
+            <p>① 事件Vi 的最早发生时间Ve(i)<br>    是从源点 到顶点Vi 的最长路径长度。<br>②活动ak 的最早开始时间 e(k)<br>   设活动ak 在弧&lt; Vi , Vj &gt;上, 则e(k)是从源点到顶点Vi 的最长路径长度。因此：              e(k) = Ve(i)。<br>③事件Vi 的最迟发生时间Vl(i)<br>    是在保证汇点在最早时刻完成的前提下，事件Vi 允许的最迟发生时间。<br>④ 活动ak 的最迟开始时间 l(k)<br>    l(k)是在不会引起时间延误的前提下, 该活动允许的最迟开始时间。<br>           l(k)= Vl(j) - w<i, j="">。// w<i, j="">是完成 ak  所需的时间。<br>关键活动： e(k) == l(k)<br>所以寻找关键路径就是寻找e(k)==l (k)的所有活动</i,></i,></p>
 <hr>
 
           
@@ -696,7 +661,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/10/29/10-29总结/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/11/13/11-8总结/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="John Doe">
@@ -715,7 +680,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2017/10/29/10-29总结/" itemprop="url">10.29总结</a></h1>
+                <a class="post-title-link" href="/2017/11/13/11-8总结/" itemprop="url">11.8总结</a></h1>
         
 
         <div class="post-meta">
@@ -727,8 +692,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-10-29T22:06:17+08:00">
-                2017-10-29
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-11-13T20:47:09+08:00">
+                2017-11-13
               </time>
             
 
@@ -767,7 +732,9 @@
       
         
           
-            <p>网络安全模型<br>通信双方在网络上传输信息，需要先在发收之间建立一条逻辑通道。这就要先确定从发送端到接收端的路由，再选择该路由上使用的通信协议，如TCP/IP。<br>为了在开放式的网络环境中安全地传输信息，需要对信息提供安全机制和安全服务。信息的安全传输包括两个基本部分：一是对发送的信息进行安全转换，如信息加密以便达到信息的保密性，附加一些特征码以便进行发送者身份验证等；二是发送双方共享的某些秘密信息，如加密密钥，除了对可信任的第三方外，对其他用户是保密的。<br>为了使信息安全传输，通常需要一个可信任的第三方，其作用是负责向通信双方分发秘密信息，以及在双方发生争议时进行仲裁。<br>一个安全的网络通信必须考虑以下内容：<br>·实现与安全相关的信息转换的规则或算法<br>·用于信息转换算法的密码信息（如密钥）<br>·秘密信息的分发和共享<br>·使用信息转换算法和秘密信息获取安全服务所需的协议<br>信息安全框架<br>网络信息安全可看成是多个安全单元的集合。其中，每个单元都是一个整体，包含了多个特性。一般，人们从三个主要特性——安全特性、安全层次和系统单元去理解网络信息安全。<br>1）安全特性<br>安全特性指的是该安全单元可解决什么安全威胁。信息安全特性包括保密性、完整性、可用性和认证安全性。<br>保密性安全主要是指保护信息在存储和传输过程中不被未授权的实体识别。比如，网上传输的信用卡账号和密码不被识破。<br>完整性安全是指信息在存储和传输过程中不被为授权的实体插入、删除、篡改和重发等，信息的内容不被改变。比如，用户发给别人的电子邮件，保证到接收端的内容没有改变。<br>可用性安全是指不能由于系统受到攻击而使用户无法正常去访问他本来有权正常访问的资源。比如，保护邮件服务器安全不因其遭到DDOS攻击而无法正常工作，是用户能正常收发电子邮件。<br>认证安全性就是通过某些验证措施和技术，防止无权访问某些资源的实体通过某种特殊手段进入网络而进行访问。<br>2）系统单元<br>系统单元是指该安全单元解决什么系统环境的安全问题。对于现代网络，系统单元涉及以下五个不同环境。<br>·物理单元：物理单元是指硬件设备、网络设备等，包含该特性的安全单元解决物理环境安全问题。<br>·网络单元：网络单元是指网络传输，包含该特性的安全单元解决网络协议造成的网络传输安全问题。<br>·系统单元：系统单元是指操作系统，包含该特性的安全单元解决端系统或中间系统的操作系统包含的安全问题。一般是指数据和资源在存储时的安全问题。<br>·应用单元：应用单元是指应用程序，包含该特性的安全单元解决应用程序所包含的安全问题。<br>·管理单元：管理单元是指网络安全管理环境，网络管理系统对网络资源进行安全管理。</p>
+            <p>已知一有向图G=(V,E)，其中V={V1,V2,V3,V4,V5,<br>V6,V7},E={<v1,v2>,<v1,v3>,<v1,v4>,<v2,v5>,</v2,v5></v1,v4></v1,v3></v1,v2></p>
+<p><v3,v5>,<v3,v6>,<v4,v6>,<v5,v7>,<v6,v7>},G的拓扑序列是（     A     ）<br>A．V1,V3,V4,V6,V2,V5,V7<br>B．V1,V3,V2,V6,V4,V5,V7<br>C．V1,V3,V4,V5,V2,V6,V7<br>D．V1,V2,V5,V3,V4,V6,V7 </v6,v7></v5,v7></v4,v6></v3,v6></v3,v5></p>
+<p>下面哪一方法可以判断出一个有向图是否有环(    B   )<br>A .深度优先遍历.   B. 拓扑排序 .  C. 求最短路径  D. 求关键路径</p>
 <hr>
 
           
@@ -817,7 +784,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/10/28/10-28总结/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/11/13/11-7总结/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="John Doe">
@@ -836,7 +803,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2017/10/28/10-28总结/" itemprop="url">10.28总结</a></h1>
+                <a class="post-title-link" href="/2017/11/13/11-7总结/" itemprop="url">11.7总结</a></h1>
         
 
         <div class="post-meta">
@@ -848,8 +815,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-10-28T14:01:31+08:00">
-                2017-10-28
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-11-13T20:42:39+08:00">
+                2017-11-13
               </time>
             
 
@@ -888,7 +855,7 @@
       
         
           
-            <p>1.复习数学第三章，暂时未完成，计划明天上午把数学结束，下午学点java或者数据结构。虽然时间已经过半，但是课本跟新的一样，适应这么久了，也该差不多了。<br>2.用零碎的时间了解网络信息安全，看一些有关网络信息安全的文章。</p>
+            <p>1.在一个具有n个顶点的无向图中，要连通所有顶点则至少需要（  c ）条边。<br>A．n       B．2n      C．n-1     D．n+1<br>2.在一个图中，所有顶点的度数之和等于所有边数的（ c  ）倍。<br>A.1/2  B.1   C.2.  D.4<br>无向图G=（V，E），其中:V={a,b,c,d,e,f},<br>E={(a,b),(a,e),(a,c),(b,e),(c,f),(f,d),(e,d)} 对该图进行深度优先遍历，得到的顶点序列正确的是（　 d　）<br>A.a,b,e,c,d,f        B.a,c,f,e,b,d   C.a,e,b,c,f,d        D.a,e,d,f,c,b </p>
 <hr>
 
           
@@ -938,7 +905,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/10/27/10-27总结/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/11/13/11-6总结/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="John Doe">
@@ -957,7 +924,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2017/10/27/10-27总结/" itemprop="url">10.27总结</a></h1>
+                <a class="post-title-link" href="/2017/11/13/11-6总结/" itemprop="url">11.6总结</a></h1>
         
 
         <div class="post-meta">
@@ -969,8 +936,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-10-27T21:27:20+08:00">
-                2017-10-27
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-11-13T20:40:31+08:00">
+                2017-11-13
               </time>
             
 
@@ -1009,7 +976,7 @@
       
         
           
-            <p>1.发布了新的专家校园行信息。<br>2.对数学的第二章知识进行了系统的复习。这周计划把数学复习一遍。如果有多余的时间学习一下java。</p>
+            <p>Java的三大特性：封装、多态、继承</p>
 <hr>
 
           
@@ -1059,7 +1026,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/10/26/10-26总结/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/11/13/11-5总结/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="John Doe">
@@ -1078,7 +1045,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2017/10/26/10-26总结/" itemprop="url">10.26总结</a></h1>
+                <a class="post-title-link" href="/2017/11/13/11-5总结/" itemprop="url">11.5总结</a></h1>
         
 
         <div class="post-meta">
@@ -1090,8 +1057,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-10-26T15:19:15+08:00">
-                2017-10-26
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-11-13T20:39:22+08:00">
+                2017-11-13
               </time>
             
 
@@ -1130,7 +1097,10 @@
       
         
           
-            <p>1、数据结构复习了二叉树的五个性质，晚上下课后进行做题，进行训练，把常规方法简单化。<br>性质1：在二叉树的第i层上至多有2i-1个结点(i&gt;=1)<br>性质2：深度为k的二叉树至多有2k-1个结点。<br>性质3：对于任何一棵二叉树T，如果其叶子数为n0，度为2的结点数为n2，则n0=n2+1、数据结构复习了二叉树的五个性质，晚上下课后进行做题，进行训练，把常规方法简单化。<br>性质4：具有n个结点的完全二叉树的深度为└log2n┘+1、<br>性质5：如果对一棵n个结点的完全二叉树的结点按层序编号，则对任意结点编号i(1≤i≤n)，有<br>(1)若i=1，该结点为根，它无双亲结点；<br>(2)若i&gt;1，该结点的双亲结点编号为└i/2┘；<br>(3)若2i&gt;n，则结点i没有左孩子,否则有编号为2i的左孩子；<br>(4)若2i+1&gt;n，则结点i没有右孩子，否则有编号为2i+1的右孩子。<br>2、工作上：向大家做了关于专家校园行的解释，虽然还是不怎么明白大家为什么不理解，但是我相信我会了解清楚的。</p>
+            <p>学习黑客技术的第一条铁律就是不要有终点思维，深刻理解成长才是永恒的主题。<br>学习黑客技术的第二条铁律就是不要抱有任何幻想、任何偷奸取巧，只要你决定这条路是自己去走，那么无论你如何寻找奇技淫巧，最终都不会让你少走半步。<br>学习黑客技术的第三条铁律就是时刻葆有对低效率的自己的耐心。<br>想要做任何事情之前，一定要想清楚三个问题，分别是你为什么要做，你愿意为此付出什么，你想要的结果是什么。而所谓的智慧，就是一个人通过这种方式不断的调整自己对于各种事情的预期，从而达到一种与外界的平衡。如果将这个思路映射到黑客学习这件事上，大体可以分为如下三个问题。</p>
+<p>首先，要考虑清楚你为何要学这个。说白了就是你的动机是什么，如果你的动机是不可持续的，例如盗个QQ（甚至是挖个系统级0Day漏洞），那么我建议你将自己的动机修改为可持续的，例如你想保持一项什么记录（甚至是让其他人更加尊敬你），因为这类动机是在不断变换的，只有这类动机才能让你有一个更加长久的动力源泉，才能促使你坚持的更久，也就能取得更大的成就。</p>
+<p>其次，要考虑明白你可以付出什么。你要清楚的是，任何事情都是有代价的，而且如果你此时的年龄越小，你那么你对“代价”的理解就越不深刻，这点一定要着重加以注意。<br>黑客技术是一件非常有魅力、非常有价值，同时也是非常酷的一件事，但是这么有魅力的事情，如果你想要完成它，要么需要极佳的运气，要么就是需要你付出非人的努力。<br>举例来说，最近我们经常看到媒体在报道时说国内某组织的某黑客在几秒内就攻破了IE浏览器，在几秒内就绕过了XX保护机制。但事实的真相是他们其实就是运行了一个自己准备好的代码而已，而媒体上说的这几秒钟的时间其实是代码的运行时间。据我说知，他们在参赛之前，整个团队为了这几秒钟的ShowTime，需要经历至少十余个甚至数十个不眠之夜，然后才能打造出可能仅有几百个字节的艺术品般的代码（也就是Exploit），最后才能拿去现场过五关斩六将。<br>如果在这个十三亿人口的国度里最牛逼的黑客都需要如此付出，那么作为目前默默无闻的你来说，想要学会这门技术应该需要多少个不眠之夜呢？</p>
+<p>最后，要考虑你的学习方向是什么。信息安全领域的方向太多了，如果最粗旷的分，大致可以分为网络安全、软件安全、基础安全这三类。其中网络安全包括网络渗透、通讯安全、电信安全等，软件安全包括授权控制、漏洞挖掘、加密解密等，基础安全分为理论安全、密码学等。</p>
 <hr>
 
           
@@ -1180,7 +1150,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/10/25/10-25总结/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/11/13/11-4总结/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="John Doe">
@@ -1199,7 +1169,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2017/10/25/10-25总结/" itemprop="url">10.25总结</a></h1>
+                <a class="post-title-link" href="/2017/11/13/11-4总结/" itemprop="url">11.4总结</a></h1>
         
 
         <div class="post-meta">
@@ -1211,8 +1181,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-10-25T17:48:25+08:00">
-                2017-10-25
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-11-13T20:36:24+08:00">
+                2017-11-13
               </time>
             
 
@@ -1251,7 +1221,7 @@
       
         
           
-            <p>1.公布名单<br>2.数据结构：给定n个权值作为n个叶子结点，构造一棵二叉树，若带权路径长度达到最小，称这样的二叉树为最优二叉树，也称为哈夫曼树(Huffman Tree)。哈夫曼树是带权路径长度最短的树，权值较大的结点离根较近。<br>（1）、路径和路径长度<br>在一棵树中，从一个结点往下可以达到的孩子或孙子结点之间的通路，称为路径。通路中分支的数目称为路径长度。若规定根结点的层数为1，则从根结点到第L层结点的路径长度为L-1。<br>（2）、结点的权及带权路径长度<br>若将树中结点赋给一个有着某种含义的数值，则这个数值称为该结点的权。结点的带权路径长度为：从根结点到该结点之间的路径长度与该结点的权的乘积。<br>（3）、树的带权路径长度<br>树的带权路径长度规定为所有叶子结点的带权路径长度之和，记为WPL。<br>（4）、假设有n个权值，则构造出的哈夫曼树有n个叶子结点。 n个权值分别设为 w1、w2、…、wn，则哈夫曼树的构造规则为：<br>        (1) 将w1、w2、…，wn看成是有n 棵树的森林(每棵树仅有一个结点)；<br>        (2) 在森林中选出两个根结点的权值最小的树合并，作为一棵新树的左、右子树，且新树的根结点权值为其左、右子树根结点权值之和；<br>        (3)从森林中删除选取的两棵树，并将新树加入森林；<br>        (4)重复(2)、(3)步，直到森林中只剩一棵树为止，该树即为所求得的哈夫曼树。</p>
+            <p>Dijstra算法<br>迪杰斯特拉算法思想：按路径长度递增的方法产生从源点到各顶点的最短路径。<br>解释：有n个顶点，从源点v0出发到其他n-1个顶点有n-1条最短路径，这些路径的求解是按照长度递增的次序进行求解的。<br>第一条最短路径的求解：以v0为源点，从v0出发找最短的弧，此弧一定是按上面的方法找到的第一条路径。<br>次最短路径的求解：要么该路径只包含从源点到终点的一条弧，要么是经过第一条最短路径后到达终点的路径。<br>构造两个顶点集合M和U。M为所有顶点的集合，U存放当前已经求得最短路径的顶点，M-U为剩下的顶点集合。<br>设辅助向量final[0…n-1]， final[i]为TRUE时表示从v0到vi的最短路径已经求出，为FALSE表示尚未求出；<br>设辅助向量P[0…n-1]和D[0…n-1]；D[i]记录目前已知的从v0到vi的最短路径的长度；P[i]记录目前已知的从v0到vi的最短路径；</p>
 <hr>
 
           
@@ -1301,7 +1271,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/10/24/10-24总结/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/11/13/11-3总结/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="John Doe">
@@ -1320,7 +1290,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2017/10/24/10-24总结/" itemprop="url">10.24总结</a></h1>
+                <a class="post-title-link" href="/2017/11/13/11-3总结/" itemprop="url">11.3总结</a></h1>
         
 
         <div class="post-meta">
@@ -1332,8 +1302,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-10-24T21:44:07+08:00">
-                2017-10-24
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-11-13T20:35:32+08:00">
+                2017-11-13
               </time>
             
 
@@ -1372,7 +1342,7 @@
       
         
           
-            <p>1.复习了数据结构之前的内容，<br>   （1）数据是数据对象的子集。<br>   （2) 数据元素之间的关系在计算机中可用顺序映像和非顺序映像两种不同的方法表示。<br>   （3) 数据结构在计算机中的表示又称为逻辑结构。<br>   （4）顺序表中逻辑上相邻的元素物理位置必然相邻，单链表中逻辑上相邻的元素的物理位置不一定相邻。<br>   （5）若链表中附设头结点，则头指针一定不为空<br>   （6) 头结点中不存储链表的数据元素，而是一些诸如表长之类的辅助信息<br>   （7) 在单链表中附设头结点，插入或删除首元素时不必进行特殊处理<br>   （8）已知L是带表头结点的非空单链表，且P结点是S结点的直接前驱。则删除S结点的语句序列为P-&gt;next = P-&gt;next-&gt;next; free(S)P-&gt;next = S-&gt;next; free(S) 。<br>2.做了报名名单，复习了党章。</p>
+            <p>1.Net user 查看本机的用户列表<br>2.Net user“用户名” “密码” /add添加用户‘<br>3.Net loaclgroup administratgors XXX/add  将XXX用户添加的administrators的组中。<br>4.REG ADD HKLM\SYSTEM\CurrentControlSet\Control\Terminal””Server/v fDenyTSConnections/t REG_DWORD/d 00000000/f 修改注册表键值开启远程桌面3389端口。</p>
 <hr>
 
           
@@ -1422,7 +1392,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/09/25/数据结构/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/11/13/11-2总结/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="John Doe">
@@ -1441,7 +1411,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2017/09/25/数据结构/" itemprop="url">数据结构</a></h1>
+                <a class="post-title-link" href="/2017/11/13/11-2总结/" itemprop="url">11.2总结</a></h1>
         
 
         <div class="post-meta">
@@ -1453,8 +1423,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-09-25T20:15:08+08:00">
-                2017-09-25
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-11-13T20:34:45+08:00">
+                2017-11-13
               </time>
             
 
@@ -1463,28 +1433,6 @@
             
           </span>
 
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/学习/" itemprop="url" rel="index">
-                    <span itemprop="name">学习</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
           
 
           
@@ -1515,9 +1463,8 @@
       
         
           
-            <p>现在学的《数据结构》是我在大学期间所学的最难的课程，暂时没有之一。<br>现把前两章所学基础的知识做一下总结：<br>第一章<br>  1.1数据结构：是研究非数值计算的程序设计中计算机操作的对象以及它们之间的关系和运算的一门学科。<br>  1.2数据(Data)：是对客观事物的符号表示(信息的描述)，一切能够由计算机接受和处理的对象。<br>     数据元素(Data element)：是数据的基本单位，在程序中作为一个整体加以考虑和处理。<br>     数据项(Data item)：是数据的不可分割的最小单位，在有些场合下，数据项又称为字段或域。<br>     根据数据之前的不同关系可以分为：集合、线性结构、树形结构、网状结构或者分为线性结构和非线性结构。<br>     Data_Structure=(D，S)<br>        D：数据元素的有限集<br>        S：D上关系的有限集<br>  1.3数据元素之间的逻辑结构分为：一对一、一对多、多对多三种。<br>     物理结构：描述数据元素在计算机存储器中的存储方式。<br>        顺序：逻辑相邻的元素物理存储上相邻；<br>        链式：逻辑相邻的元素物理存储无关。<br>        抽象数据类型的定义与表示：<br>       （D，S，P）<br>        D是数据对象，S是D上的关系集，P是对D的基本操作集。<br>     ADT 抽象数据类型名 {<br>        数据对象：D=〈数据对象的定义〉<br>        数据关系：R=〈数据关系的定义〉<br>        基本操作：〈基本操作的定义〉<br>        } ADT 抽象数据类型名<br>  1.4算法效率的度量<br>     性能指标：时间复杂度、空间复杂度、其他（正确性、可读性、易调性、健壮性）<br>     度量方法：事后统计法、事前估算法<br>     时间复杂度：与问题的规模有关<br>        T(n)=O(f(n))<br>     例题1<br>        for (i=0; i<n; i++)="" {++x;s+="x;}" f(n)="n，时间复杂度为O(n)" 例题2="" for="" (i="0;" i<n;="" (j="0;" j<n;="" j++)="" 例题3="" j<="i;" 例题4="" for(i="1;" {y++;="" ="" 语句的频度是n-1="" for(j="0;j<=(2*n);j++)" 语句的频度是(n-1)(2n+1)="" x++;="" ="" }="" 时间复杂度为t(n)="O(n2)" 例题5="" i="1;" 语句的频度是1="" while(i<="n)" 语句的频度是log2n="" 例题6="" a="0;b=1;" {s="a+b;" b="a;" ="" ="" 例题总结：对于for语句，有多少个嵌套可以认为其时间复杂度是n的多少次方。="" 对于while语句，第一句（表示赋值的情况下）一般执行一次。循环体i="i*x，时间复杂度为T(n)=O(logxn)" 第二章="" 2.1="" 线性表的定义和特点="" 定义：="" n个数据元素的有限序列。="" l="（a1,...," ai-1,="" ai,="" ai+1,="" ...,="" an）="" 特点：="" “一头一尾、一前一后”。="" 头元素没有前驱元素；="" 表尾元素没有后继元素；除表头外，每个元素有唯一的前驱；="" 除表尾外，每个元素有唯一的后继；="" 表长n="0的线性表称为空表。" 例题="" 假设利用两个线性表="" la="" 和="" lb="" 分别表示两个集合a和b,现求一个新的集合a="A∪B" 思路:="" s1:读取lb中的元素bi;="" s2:在la中查找是否有相同的元素;="" s3:如果存在，i++,返回s1;="" 如果不存在，将bi插入到la的表尾，="" i++,返回s1="" 。="" 程序如下：="" void="" union(list="" &la,list="" lb)="" {="" la_len="ListLength(La);" lb_len="ListLength(Lb);" getelem(lb,i,e);="" p="LocateElem(La,e,equal);" if(!p)="" listinsert(la,++la_len,e);="" ="" union="" 已知线性表la和lb中的数据元素按值非递减有序排列,现要求将la和lb归并为一个新的线性表lc,且lc中的数据元素仍按值非递减有序排列.="" 例如,设la="(3,5,8,11)" 则lc="(2,3,5,6，8,8,9,11,11,15,20)" 算法：="" s1:比较la、lb相对应位置的元素，将小的插入到lc中，并读取该表的下一个元素；="" s2:重复上面的操作，直到某表读取结束；="" s3:将剩下表中的元素插入lc的表尾。="" 2.2="" 线性表的顺序表示和实现="" 顺序表的结构描述="" typedef="" struct{="" elemtype="" *elem;="" 存储空间基址="" int="" length;="" 顺序表当前长度="" listsize;="" 单前分配存储容量="" }sqlist;="" 顺序表的操作实现="" 构建一个空的顺序表l：给顺序表的三个成员赋值.="" status="" initlist_sq(sqlist="" &l)="" 构造一个空的线性表l="" l.elem="(ElemType*)malloc(LIST_" init_sizesizeof="" (elemtype));="" 定义其长度="" if(l.elem="=NULL)" exit(overflow);="" 如果函数为空，输出overflow="" l.length="0;" 空表长度为0="" l.listsize="LIST_" init_size;="" 初始存储容量="" return="" ok;="" initlist_sq="" 读取顺序表中的某个元素="" getelem_sq(sqlist="" l,int="" i,="" &e)="" if(i<1||i="">L.length)<br>                      return ERROR;<br>              else    e=L.elem[i-1];<br>              return OK;<br>          }//GetElem_Sq<br>        插入(前插法):<br>          (1).前提；表不满<br>          (2).插入范围：1~L.length+1<br>                  注；位序i在C/C++中对应于下标i-1<br>          (3).步骤：第i至最后所有元素后移一个元素<br>                    在第i个位置插入元素X<br>                    表长增加1<br>          (4).算法：<br>            Status ListInsert_L(LinkList &amp;L, int i, ElemType e)<br>             {  LinkList p,s;<br>                p=L;<br>                int j=0;<br>                while(p&amp;&amp;j<i-1) {="" p="p-">next; ++j;<br>                }<br>                if(!p||j&gt;i-1) return ERROR;<br>                s=(LinkList)malloc(sizeof(Lnode));<br>                s-&gt;data=e;s-&gt;next=p-&gt;next;<br>                p-&gt;next=s;<br>                return OK;<br>                }<br>            Status  ListInsert_Sq(SqList  &amp;L,int i, ElemType  e)<br>            {   //（1）合法性判断<br>                //（2）n-i+1个元素的后移<br>                //（3）插入元素e<br>                //（4）表长加1<br>                return OK;<br>            }<br>        删除<br>          (1).前提：表非空<br>          (2).合理的删除范围：1~L.length+1<br>          (3).步骤：<br>                   取出第i个元素<br>                   第i个元素之后的元素向前移动一个位置<br>                   表长减1<br>          (4).算法<br>            Status ListDelete_L(LinkList L, int i, ElemType &amp;e)<br>            {   LinkList p,q;<br>                p=L;<br>                int j=0;<br>                while(p-&gt;next&amp;&amp;j<i-1) {="" p="p-">next;++j;<br>                }<br>                if(!(p-&gt;next)||j&gt;i-1) return ERROR;<br>                q=p-&gt;next;p-&gt;next=q-&gt;next;<br>                e=q-&gt;data;free(q);<br>                eturn OK;<br>                }<br>            Status  ListDelete_Sq(SqList  &amp;L,int i, ElemType  &amp;e)<br>            {   //（1）合法性判断<br>                //（2）n-i个元素的前移<br>                //（3）表长减1<br>                return OK;<br>            }<br>   2.3  线性表的链式表示和实现<br>              date|next<br>            数据域：存储数据元素信息的域。<br>            指针域：存储直接后继存储位置的域。<br>            指针(链)：指针域中存储的地址。<br>            链表：n个结点链结成一个链表，即为线性表的链式存储结构。<br>            线性链表(单链表)：链表的每个结点中只包含一个指针域。<br>        结点和单链表的结构描述<br>            typedef struct LNode{<br>            ElemType  data;<br>            struct  LNode  <em>next;<br>            }LNode,  </em>LinkList;<br>        单链表的操作与实现<br>          初始化单链表//建立带附加头结点的空表<br>            Status   InitList_L(LinkList  &amp;L)<br>            {   L=(LNode<em>)malloc(sizeof(LNode));<br>                if(!L)   //L==NULL<br>                exit(OVERFLOW);<br>                L-&gt;next=NULL;<br>                return OK;<br>            } //InitList_L<br>        单链表的操作与实现<br>          获取单链表的长度//针对带附加头结点的链表<br>            int   ListLength_L(LinkList  L)<br>            {   p=L-&gt;next;<br>               num=0;<br>               while(p!=NULL)<br>            {   num++;  p=p-&gt;next;  }<br>                return  num;<br>            } //ListLength_L<br>        单链表的操作与实现<br>          获取单链表中的第i个元素<br>            Status   GetElem_L(LinkList  L,int i, ElemType &amp;e)<br>            {   //i在1到ListLength(L)之间<br>                p=L-&gt;next;  j=1;  //p指向第一个元素，j是计数器<br>                while(p&amp;&amp;j<i) {="" p="p-">next;  j++;    }<br>                if(!p||j&gt;i) return ERROR;<br>                e=p-&gt;data;<br>                return  OK;<br>            } //GetElem_L<br>        插入时的操作代码：<br>                        q-&gt;next = p-&gt;next;<br>                        p-&gt;next = q;<br>        单链表的操作与实现   插入<br>            Status   ListInsert_L(LinkList  &amp;L,int i, ElemType e)<br>            {   p=L;    j=0;<br>                //获得第i-1个元素的地址<br>                while(p&amp;&amp;j<i-1) {="" p="p-">next;  j++;    }<br>                if(!p||j&gt;i-1)   return ERROR;<br>                //在第i个元素前插入元素e<br>                s=(LNode</i-1)></i)></em>)malloc(sizeof(LNode));<br>                s-&gt;data=e;  s-&gt;next=p-&gt;next;<br>                p-&gt;next=s;<br>                return  OK;<br>            } //ListInsert_L<br>        删除时的操作代码：<br>                        p-&gt;next = p-&gt;next-&gt;next;<br>        单链表的操作与实现   删除<br>            Status   ListDelete_L(LinkList  &amp;L,int i, ElemType &amp;e)<br>            {   p=L;    j=0;<br>                //查找第i-1个元素<br>                while(p-&gt;next&amp;&amp;j<i-1) {="" p="p-">next;  j++;    }<br>                if(!(p-&gt;next)||j&gt;i-1)   return ERROR;<br>                //删除第i个元素<br>                q=p-&gt;next;<br>                p-&gt;next=q-&gt;next;         e=q-&gt;data;<br>                free(q);<br>                return  OK;<br>            } //ListDelete_L<br>        单链表的操作与实现<br>          清空单链表<br>            Status   ClearList_L(LinkList  &amp;L)<br>            {   //将单链表重新置为空表<br>                while (L-&gt;next)<br>                {<br>                p=L-&gt;next;    L-&gt;next=p-&gt;next;<br>                free(p);<br>                }<br>                return  OK;<br>            } //ClearList_L<br>        顺序存储与链式存储的比较<br>            void MergeList(List La, List Lb, List &amp;Lc)<br>            {   InitList(Lc);     i = j = 1;    k = 0;<br>                La_len = ListLength(La);  Lb_len = ListLength(Lb);<br>                while ((i &lt;= La_len) &amp;&amp; (j &lt;= Lb_len))<br>                {      GetElem(La, i, ai);  GetElem(Lb, j, bj);<br>                if (ai &lt;= bj) { ListInsert(Lc, ++k, ai);  ++i; }<br>                else { ListInsert(Lc, ++k, bj);  ++j; }<br>            }<br>             … …<br>            }<br>        循环链表<br>           表中最后一个结点的指针域指向头结点。<br>           循环链表为空的判定条件：L-&gt;next == L<br>        双向链表<br>           每个结点中包含指向直接前驱和直接后继的两个指针域。<br>           d-&gt;next-&gt;prev=d-&gt;prev-&gt;next=d<br>      例题：<br>        设已知结点指针p指向双向链表上的某结点，结点指针q指向一个待插入结点，设计操作，将q所指向的结点插入到p所指向的结点的后面。<br>            操作代码：<br>                    p-&gt;next-&gt;prev = q;<br>                    q-&gt;next = p-&gt;next;<br>                    p-&gt;next = q;<br>                    q-&gt;prev = p;<br>      例题：<br>        设已知结点指针p指向双向链表上的某结点，将p所指向的结点删除。<br>            操作代码：<br>                    p-&gt;prev-&gt;next = p-&gt;next;<br>                    p-&gt;next-&gt;prev = p-&gt;prev;<br>        顺序结构与链式结构选用对比：<br>          顺序结构实现的线性表的特点：<br>            空间结构简单，易于管理<br>            便于随机访问<br>            占用整块儿存储单元<br>            增删元素不方便<br>          链式结构实现的线性表的特点<br>            空间结构复杂，不易管理<br>            不能进行随机访问<br>            有效利用存储空间<br>            便于增删元素<br>      例题：<br>        1.在长度为n的顺序存储的线性表中,向第i个元素(1≤i ≤ n+1)位置插入一个新元素时，需要从后向前依次后移（ n-i+1 ）个元素<br>        2.在一个长度为n的 顺序存储的线性表中，删除第i个元素（1≤i ≤ n）时，需要从前向后依次移动（   n-i  ）个元素<br>        3.在一个单链表HL中，若要向表头插入一个由指针p指向的结点，则执行（    B    ）。<br>            A.HL=p；p-&gt;next=HL;     B.p-&gt;next=HL;HL=p;<br>            C.p-&gt;next=HL;p=HL;        D.p-&gt;next=HL-&gt;next; HL-&gt;=p;<br>        4.在一个单链表HL中，若要在指针q指向的结点后面插入一个由指针p所指向的结点，则执行(   D    )。<br>            A.q-&gt;next=p-&gt;next；p-&gt;next=q;<br>            B.p-&gt;next=q-&gt;next;   q=p;<br>            C.q-&gt;next=p-&gt;next;   p-&gt;next=q;<br>            D.p-&gt;next=q-&gt;next;   q-&gt;next=p;<br>        5.在一个单链表HL中，若要删除由指针q指向的结点的后继结点，则执行(   C  )。<br>            A.p=q-&gt;next；p-&gt;next=q-&gt;next;<br>            B.p=q-&gt;next;   q-&gt;next=p;<br>            C.p=q-&gt;next;   q-&gt;next=p-&gt;next;<br>            D.q-&gt;next=q-&gt;next-&gt;next;   q-&gt;next=q;</i-1)></i-1)></i-1)></n;></p>
-<pre><code>6.在已HL为表头指针的带表头结点的单链表和循环链表中，链表为空的条件分别为(  HL-&gt;next=NULL  )和(  HL-&gt;next=HL  ) 。
-</code></pre><hr>
+            <p>完全图：图中任意两个顶点间都存在边。   包含 n 个顶点的完全图边的条数：e= n(n-1)/2<br>有向完全图：有向图中任意两个顶点间都存在弧。 包含n 个顶点的完全有向图有n(n-1) 条边。<br>连通：在无向图 G＝(V, R) 中, 若从顶点 vi 到vj 存在路径，则称vi 和vj是连通的。<br>连通图：如果无向图G中任意两个顶点都是连通的，则称 G是连通图。<br>连通分量（极大连通子图）： G’是G的连通子图，如果G’中加入任意一个顶点即失去连通性时，称G’为无向图G的极大连通子图。<br>生成树（极小连通子图）： 包含连通图G的全部顶点，但只有足以保持图的连通性的n-1条边。<br>强连通图：在有向图 G＝(V, R) 中, 如果每一对顶点vi和vj从vi到vj和从vj到vi都存在路径，则称G为强连通图。<br>强连通分量（极大强连通子图）。<br>生成森林：含有图中全部顶点，但只有足以构成若干棵不相交的有向树的弧。<br>有向树：恰有一个入度为0的顶点，其余顶点入度均为1的图。</p>
+<hr>
 
           
         
@@ -1557,7 +1504,7 @@
 
   
   <nav class="pagination">
-    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right"></i></a>
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1602,7 +1549,7 @@
             
               <a href="/archives/">
             
-                <span class="site-state-item-count">17</span>
+                <span class="site-state-item-count">29</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
