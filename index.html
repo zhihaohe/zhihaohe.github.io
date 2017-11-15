@@ -298,6 +298,178 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/11/15/11-15总结/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="石志浩的博客">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2017/11/15/11-15总结/" itemprop="url">11.15总结</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-11-15T22:33:36+08:00">
+                2017-11-15
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>1.<br>public class Student {<br>    private String name;<br>    private int age;<br>    private boolean sex;<br>    private int score;</p>
+<pre><code>public Student(String name, int age, boolean sex, int score) {
+    this.name = name;
+    this.age = age;
+    this.sex = sex;
+    this.score = score;
+}
+
+public static void main(String[] args) {
+    Student stu01 = new Student(&quot;诸葛亮&quot;, 46, true, 120);
+    Student stu02 = stu01;
+    Student stu03 = new Student(&quot;诸葛亮&quot;, 46, true, 120);
+    System.out.println(&quot;通过对象赋值的变量与原变量，是否相等:&quot;+stu01.equals(stu02));
+    System.out.println(&quot;属性完全相同，但分别实例化的两个变量，是否相等:&quot;+stu01.equals(stu03));
+}
+public String getName() {
+    return name;
+}
+
+public void setName(String name) {
+    this.name = name;
+}
+
+public int getAge() {
+    return age;
+}
+
+public void setAge(int age) {
+    this.age = age;
+}
+
+public String getSex() {
+    if (sex) {
+        return &quot;男&quot;;
+    }
+    return &quot;女&quot;;
+}
+
+public void setSex(boolean sex) {
+    this.sex = sex;
+}
+
+public int getScore() {
+    return score;
+}
+
+public void setScore(int score) {
+    this.score = score;
+}
+</code></pre><p>}</p>
+<p>2.<br>public class Jurassic {<br>    class Animal{<br>        public void act() {<br>            System.out.println(“这只动物在水里洗了个澡！”);<br>        }<br>    }<br>    class Dinosaur extends Animal{<br>        @Override<br>        public void act() {<br>            System.out.println(“这只恐龙吃掉捕捉到的猎物之后在水里洗了个澡！”);<br>        }<br>    }<br>    public static void main(String[] args) {<br>        Jurassic j = new Jurassic();<br>        Jurassic.Dinosaur d = j.new Dinosaur();<br>        d.act();<br>    }</p>
+<p>}</p>
+<hr>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/11/15/11-14总结/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1437,132 +1609,11 @@ public static void main(String[] args) {
 
 
     
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/11/13/11-3总结/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="John Doe">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="石志浩的博客">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/11/13/11-3总结/" itemprop="url">11.3总结</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-11-13T20:35:32+08:00">
-                2017-11-13
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>1.Net user 查看本机的用户列表<br>2.Net user“用户名” “密码” /add添加用户‘<br>3.Net loaclgroup administratgors XXX/add  将XXX用户添加的administrators的组中。<br>4.REG ADD HKLM\SYSTEM\CurrentControlSet\Control\Terminal””Server/v fDenyTSConnections/t REG_DWORD/d 00000000/f 修改注册表键值开启远程桌面3389端口。</p>
-<hr>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
   </section>
 
   
   <nav class="pagination">
-    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="page-number" href="/page/3/">3</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right"></i></a>
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><span class="space">&hellip;</span><a class="page-number" href="/page/4/">4</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -1607,7 +1658,7 @@ public static void main(String[] args) {
             
               <a href="/archives/">
             
-                <span class="site-state-item-count">30</span>
+                <span class="site-state-item-count">31</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
